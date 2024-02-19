@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-weight: 500;
+  font-size: 3.5rem;
+}
+
+.container {
+  margin: 2rem 15vw;
+  display: grid;
+  grid-template-rows: 12rem 40rem 34rem 35rem;
+  grid-template-columns: 43rem 54rem 31rem;
+  gap: 2rem;
+  position: relative;
+}
+
+.header {
+  height: 10rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  grid-column: 1/4;
+}
+
+.nav_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_items {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 4.5rem;
+  font-size: 2.5rem;
+}
+
+.nav_link:link,
+.nav_link:active,
+.nav_link:visited,
+.nav_link:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav_link5:link,
+.nav_link5:active,
+.nav_link5:visited,
+.nav_link5:hover {
+  color: #fff;
+}
+
+.nav_logo {
+  cursor: pointer;
+}
+
+.cta-btn {
+  background-color: #282c35;
+  padding: 1.5rem 2rem;
+  font-size: 2.5rem;
+  border-radius: 1rem;
+  border: none;
+}
+
+.section-1 {
+  background-color: #f5c0ac;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1/4;
+}
+
+.section-2 {
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2/4;
+}
+
+.section-3 {
+  background-color: #e2e2e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-column: 2/3;
+}
+
+.section-4 {
+  background-color: #e2e2e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar {
+  background-color: #dbcfcf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: 3/5;
+}
+
+.footer {
+  height: 6.5rem;
+  width: 100%;
+  background-color: #363636;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15vw;
+
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 3.5rem;
+}
+
+.copyright {
+  color: white;
+}
+
+.social-media-link:link,
+.social-media-link:active,
+.social-media-link:visited,
+.social-media-link:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
